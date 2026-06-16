@@ -8,7 +8,9 @@ import lombok.EqualsAndHashCode;
 @Data
 public class FeedPointQueryDto extends QueryDto {
 
-    private String feedName;
+    private String name;
 
-    private String feedStatus;
+    private String applyStatus;
+
+    private String status;
 }
